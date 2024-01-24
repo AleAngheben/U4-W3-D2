@@ -25,6 +25,7 @@ public class Application {
         Event jigglypuffKaraoke = new Event("Jigglypuff Karaoke Night", "2022-07-10", "Sing along with Jigglypuff songs", EventType.PRIVATE, 20);
 
 
+        //-------------------------------------ESERCIZIO DEL U4-W3-D2 ------------------------------------------------
         // 1 CREO
       /*  ed.save(otmanParty);
         ed.save(daniParty);
@@ -35,14 +36,15 @@ public class Application {
 
         // 2 TROVO
 
-       Event foundEvent= ed.findById(4);
-        System.out.println("Ho trovato questo evento : " +foundEvent.getTitle());
-
+        //   Event foundEvent = ed.findById(4);
+        //  System.out.println("Ho trovato questo evento : " + foundEvent.getTitle());
 
 
         // 3 TROVO ED ELIMINO
-ed.findAndDeleteById(2);
+        //   ed.findAndDeleteById(2);
 
+
+        //-------------------------------------ESERCIZIO DEL U4-W3-D3 ------------------------------------------------
         em.close();
         emf.close();
     }
